@@ -1,0 +1,33 @@
+.navbar {
+  background-color: lightgrey;
+}
+
+.navbar-brand a {
+  text-decoration: none;
+}
+
+.nav-item {
+  text-align: center;
+  border-bottom: 1px solid grey;
+  border-bottom-width: 50%;
+  color: brown;
+}
+
+#content {
+  height: 1000px;
+  background-color: darkgrey;
+}
+
+#page-header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: cornflowerblue;
+}
+
+@media (max-width: 576px) {
+  #content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
